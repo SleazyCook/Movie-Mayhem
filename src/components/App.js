@@ -5,7 +5,7 @@ import {Outlet} from 'react-router-dom';
 const App = () => {
   return (
     <div>
-      <header>Movie Mayhem</header>
+      <header><h1><a href="https://moviemayhem.netlify.app">Movie Mayhem</a></h1></header>
       <Navbar />
       <Outlet />
       <footer>

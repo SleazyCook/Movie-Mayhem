@@ -1,4 +1,25 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+body {
   color: green;
-  background-color: #1e1e1e;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Permanent Marker';
+  color: goldenrod;
+}
+
+header a {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+footer {
+  color: goldenrod;
+}
+
+#author {
+  font-family: 'Berkshire Swash';
 }
