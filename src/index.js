@@ -4,6 +4,9 @@ import App from "./components/App";
 import ErrorPage from './components/ErrorPage';
 import Home from './components/Home';
 import About from './components/About';
+import Login from './components/Login';
+import Register from './components/Register';
+import Profile from './components/Profile';
 
 
 const appElement = document.getElementById('app');
@@ -22,6 +25,18 @@ export const router = createBrowserRouter([
       {
         path: 'about',
         element: <About />
+      },
+      {
+        path: 'login',
+        element: <Login />
+      },
+      {
+        path: 'register',
+        element: <Register />
+      },
+      {
+        path: 'profile',
+        element: <Profile />
       }
     ]
   }
