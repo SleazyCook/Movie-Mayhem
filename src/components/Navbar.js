@@ -8,6 +8,10 @@ const Navbar = () => {
         Home
       </Link>
 
+      <Link to="allMovies">
+        Letterboxd List
+      </Link>
+
       <Link to="login">
         Login
       </Link>

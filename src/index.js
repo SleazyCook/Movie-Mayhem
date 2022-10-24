@@ -7,6 +7,7 @@ import About from './components/About';
 import Login from './components/Login';
 import Register from './components/Register';
 import Profile from './components/Profile';
+import AllMovies from './components/AllMovies';
 
 
 const appElement = document.getElementById('app');
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
       {
         path: 'profile',
         element: <Profile />
+      },
+      {
+        path: 'allMovies',
+        element: <AllMovies />
       }
     ]
   }
